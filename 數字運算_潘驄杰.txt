@@ -1,0 +1,70 @@
+# Practice 1 
+
+import math
+
+1. print(math.factorial(5))
+2. print(math.floor(4.5))
+3. print(math.ceil(4.5))
+4. print(abs(-7))
+5. print(pow(2,6))
+6. print(round(3.14159,4))
+
+# ---
+
+# Practice 2
+
+1.
+    s = "this is a book"
+    s2 = s.capitalize()
+    print(s2)
+2.
+    s = "This is a book"
+    s2 = s.casefold()
+    print(s2)
+3.
+    s = "This is a book"
+    s2 = s.upper()
+    print(s2)
+4.
+    s = "This is a book"
+    s2 = s.swapcase()
+    print(s2)
+5.
+    s = "This is a book"
+    s2 = s.title()
+    print(s2)
+
+#---
+
+# Practice 3
+
+1. Output：1
+2. Output：2
+3. Output：10
+4. Output：10
+5. Output：True
+6. Output：False
+
+#---
+
+# Practice 4
+
+import math
+output = (48*49*50*51*52) / math.factorial(5)
+print(output) # output = 2598960.0
+
+#---
+
+# Practice 5
+
+## <寫法一>
+    import math
+    print(((((math.factorial(20) / 1000000)/60)/60)/24)/365)
+## <寫法二>
+    import math
+    Total_times = (math.factorial(20) / 1000000)
+    minute = Total_times / 60
+    hour = minute / 60
+    day = hour / 24
+    year = day / 365
+    print(year)
